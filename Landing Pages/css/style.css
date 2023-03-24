@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway'; 'sans-serif';
+}
+html{
+  font-size: 62.5%;
+  width: 100%;
+  min-width: 320px;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+:root {
+  --celeste: #00ccff;
+  --azul: #1688d5;
+  --marino: #195ae3;
+  --plomo: #999999;
+  --gris: #f4f4f4;
+  --pastel: #fdf483;
+  --amarillo: #ffff00;
+}
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 7;
+}
+section#men {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 577px;
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/parallax/banner_web.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,38 @@
+.footer-text {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.footer-text p:last-child {
+    font-size: 1.5rem;
+}
+
+.footer-text span {
+    color: var(--azul);
+}
+
+.footer-text p:last-child span {
+    color: var(--amarillo);
+    font-size: 1.6rem;
+}
+
+footer a {
+  background-color: var(--azul);
+      margin: 16px 15px;
+      display: table;
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: 600;
+      padding: 10px 20px;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}

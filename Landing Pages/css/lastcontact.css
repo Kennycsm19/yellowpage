@@ -1,0 +1,90 @@
+.lastcontact-img img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+section#lastcontact {
+    padding: 20px 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/thumbs/pattern.png);
+    background-color: var(--azul);
+}
+
+.lastcontact-text p:first-child {
+    font-size: 2.2rem;
+    display: inline-block;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.lastcontact-text {
+    color: white;
+    max-width: 552px;
+}
+
+.lastcontact-text p span {
+    display: inline-block;
+    color: var(--amarillo);
+}
+
+.lastcontact-text p:last-child {
+    background-color: wheat;
+}
+
+.lastcontact-text p:last-child {
+    font-size: 5rem;
+}
+
+.lastcontact-text p:nth-child(2) {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 15px 0;
+    display: block;
+}
+
+.lastlinks a span {
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 5px;
+}
+
+.lastlinks a {
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 3.5rem;
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--pastel);
+    align-items: center;
+}
+
+.lastlinks a:nth-child(2) {font-size: 2rem;}
+
+.lastlinks a:nth-child(1) span {
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/thumbs/phone.png);
+}
+
+.lastlinks a:nth-child(2) span {
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/thumbs/email.png);
+    background-position-y: 1px;
+}
+.lastcontact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastcontact-img figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,174 @@
+main {
+    position: relative;
+    padding-top: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/thumbs/intro_header_bkg2.jpg);
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    padding: 0 21px;
+    font-size: 3.8rem;
+    color: var(--amarillo);
+    font-weight: 900;
+    margin: 20px auto;
+    max-width: 405px;
+}
+
+.header-a{
+  display: none;
+}
+
+main strong {
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    color: white;
+    margin: 15px auto;
+    max-width: 787px;
+}
+
+main p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 13px;
+    font-weight: 500;
+    margin: 15px auto;
+    max-width: 525px;
+}
+main p span {
+    font-weight: 700;
+}
+main p:nth-child(4) {
+    padding: 0 13px;
+    font-size: 1.4rem;
+    max-width: 599px;
+}
+
+main p:nth-child(4) span {
+    color: var(--amarillo);
+}
+main p:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+main p:nth-child(5) span {
+    color: var(--celeste);
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.main-texta {
+    font-size: 4rem;
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--pastel);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 56px;
+    text-align: center;
+}
+.main-texta span {
+    width: 45px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://www.host-n-web.com/pe/diseno-web/img/thumbs/phone.png);
+    display: block;
+    margin-top: 3px;
+}
+
+.link-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 20px auto;
+    gap: 0 13px;
+}
+
+.link-main a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://host-n-web.com/suscribir/images/ads.png);
+    margin-bottom: 10px;
+}
+.link-main a:nth-child(2) {
+    background-image: url(https://host-n-web.com/suscribir/images/wp.webp);
+}
+form {
+    width: 90%;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 15px;
+    background-color: #00000059;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
+form label {
+    display: none;
+}
+
+form input {
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 85%;
+    margin-bottom: 15px;
+    background-color: var(--gris);
+    border: 0;
+    padding: 10px 15px;
+}
+
+input[type="submit"] {
+    font-weight: 400;
+    color: white;
+    background-color: var(--azul);
+    border: 0;
+    width: 212px;
+    padding: 10px 0;
+    font-size: 1.6rem;
+}
+
+form p:last-child {
+    font-size: 1rem;
+    width: 267px;
+    font-weight: 700;
+    line-height: 18px;
+}
+form p:first-child {
+    color: var(--celeste);
+    margin-bottom: 8px;
+}
+
+form p:nth-child(2) {
+    margin-bottom: 15px;
+}
+form p {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+input::placeholder {
+  color: var(--plomo);
+}

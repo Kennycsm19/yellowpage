@@ -1,0 +1,73 @@
+.header-a {
+    display: block;
+    font-size: 1.4rem;
+    max-width: 872px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-a a {
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}.logo-header {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.header-a a:hover {
+    color: var(--azul);
+}
+main {
+    flex-wrap: nowrap;
+}
+h1 {
+    margin: 0;
+}
+.btn-group {
+    display: none;
+}
+main strong {
+    text-align: left;
+    max-width: 747px;
+}
+
+main p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    max-width: 559px;
+    line-height: 28px;
+}
+
+main p:nth-child(4) {
+    padding: 10px 0;
+    max-width: 664px;
+}
+
+main p:nth-child(5) {align-items: flex-end;flex-direction: row;margin-bottom: 10px;}
+
+.main-texta {
+    justify-content: flex-start;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.link-main {
+    margin: 0 0;
+    justify-content: space-between;
+    padding: 0;
+}
+.precios-container {
+  display: flex;
+  align-items: center;
+  width: 510px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
